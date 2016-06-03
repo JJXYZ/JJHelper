@@ -19,7 +19,6 @@
 #import "UIImage+JJHelper.h"
 #import "UINavigationController+JJHelper.h"
 #import "UIView+JJFrame.h"
-#import "UITableViewCell+JJCreate.h"
-#import "JJTouchTableView.h"
+
 
 #endif /* JJHelperDefine_h */

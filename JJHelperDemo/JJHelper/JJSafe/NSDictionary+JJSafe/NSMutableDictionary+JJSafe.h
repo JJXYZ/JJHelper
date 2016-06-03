@@ -16,5 +16,6 @@
 
 - (void)safeRemoveObjectForKey:(id<NSCopying>)aKey;
 
-
+/** Dictionary add otherDictionary */
+- (void)safeAddEntriesFromDictionary:(NSDictionary *)otherDictionary;
 @end

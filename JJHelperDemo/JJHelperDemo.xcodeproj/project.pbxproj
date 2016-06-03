@@ -28,9 +28,19 @@
 		A31B20D71CFC1342009ED4A0 /* NSString+JJEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = A31B20D61CFC1342009ED4A0 /* NSString+JJEncryption.m */; };
 		A31B20DA1CFC152D009ED4A0 /* NSString+JJHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A31B20D91CFC152D009ED4A0 /* NSString+JJHelper.m */; };
 		A31B20DD1CFC15FA009ED4A0 /* NSDate+JJHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A31B20DC1CFC15FA009ED4A0 /* NSDate+JJHelper.m */; };
-		A31B20E11CFC2A8D009ED4A0 /* UITableViewCell+JJCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = A31B20E01CFC2A8D009ED4A0 /* UITableViewCell+JJCreate.m */; };
-		A31B20E71CFC2C4B009ED4A0 /* JJTouchTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A31B20E61CFC2C4B009ED4A0 /* JJTouchTableView.m */; };
 		A31B20EB1CFC2EFA009ED4A0 /* JJAPPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A31B20EA1CFC2EFA009ED4A0 /* JJAPPUtils.m */; };
+		A3C4FB671CFFE5D500C22439 /* JJRootScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C4FB521CFFE5D500C22439 /* JJRootScrollView.m */; };
+		A3C4FB681CFFE5D500C22439 /* JJRootTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C4FB551CFFE5D500C22439 /* JJRootTableView.m */; };
+		A3C4FB691CFFE5D500C22439 /* JJRootTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C4FB571CFFE5D500C22439 /* JJRootTableViewCell.m */; };
+		A3C4FB6A1CFFE5D500C22439 /* JJRootTableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C4FB591CFFE5D500C22439 /* JJRootTableViewHeaderFooterView.m */; };
+		A3C4FB6B1CFFE5D500C22439 /* JJTouchTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C4FB5B1CFFE5D500C22439 /* JJTouchTableView.m */; };
+		A3C4FB6C1CFFE5D500C22439 /* UITableViewCell+JJCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C4FB5D1CFFE5D500C22439 /* UITableViewCell+JJCreate.m */; };
+		A3C4FB6D1CFFE5D500C22439 /* JJRootTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C4FB601CFFE5D500C22439 /* JJRootTextField.m */; };
+		A3C4FB6E1CFFE5D500C22439 /* JJRootTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C4FB631CFFE5D500C22439 /* JJRootTextView.m */; };
+		A3C4FB6F1CFFE5D500C22439 /* JJRootView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C4FB661CFFE5D500C22439 /* JJRootView.m */; };
+		A3C4FB721CFFE5FF00C22439 /* JJRootCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C4FB711CFFE5FF00C22439 /* JJRootCollectionView.m */; };
+		A3C4FB751CFFE62E00C22439 /* JJRootCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C4FB741CFFE62E00C22439 /* JJRootCollectionViewFlowLayout.m */; };
+		A3C4FB781CFFE64900C22439 /* JJRootCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C4FB771CFFE64900C22439 /* JJRootCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,13 +90,34 @@
 		A31B20D91CFC152D009ED4A0 /* NSString+JJHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JJHelper.m"; sourceTree = "<group>"; };
 		A31B20DB1CFC15FA009ED4A0 /* NSDate+JJHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JJHelper.h"; sourceTree = "<group>"; };
 		A31B20DC1CFC15FA009ED4A0 /* NSDate+JJHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JJHelper.m"; sourceTree = "<group>"; };
-		A31B20DF1CFC2A8D009ED4A0 /* UITableViewCell+JJCreate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+JJCreate.h"; sourceTree = "<group>"; };
-		A31B20E01CFC2A8D009ED4A0 /* UITableViewCell+JJCreate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+JJCreate.m"; sourceTree = "<group>"; };
-		A31B20E51CFC2C4B009ED4A0 /* JJTouchTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJTouchTableView.h; sourceTree = "<group>"; };
-		A31B20E61CFC2C4B009ED4A0 /* JJTouchTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJTouchTableView.m; sourceTree = "<group>"; };
 		A31B20E91CFC2EFA009ED4A0 /* JJAPPUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJAPPUtils.h; sourceTree = "<group>"; };
 		A31B20EA1CFC2EFA009ED4A0 /* JJAPPUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJAPPUtils.m; sourceTree = "<group>"; };
 		A31B20EC1CFC3368009ED4A0 /* JJUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJUtils.h; sourceTree = "<group>"; };
+		A3C4FB341CFFE01100C22439 /* JJRootUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJRootUI.h; sourceTree = "<group>"; };
+		A3C4FB511CFFE5D500C22439 /* JJRootScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJRootScrollView.h; sourceTree = "<group>"; };
+		A3C4FB521CFFE5D500C22439 /* JJRootScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJRootScrollView.m; sourceTree = "<group>"; };
+		A3C4FB541CFFE5D500C22439 /* JJRootTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJRootTableView.h; sourceTree = "<group>"; };
+		A3C4FB551CFFE5D500C22439 /* JJRootTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJRootTableView.m; sourceTree = "<group>"; };
+		A3C4FB561CFFE5D500C22439 /* JJRootTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJRootTableViewCell.h; sourceTree = "<group>"; };
+		A3C4FB571CFFE5D500C22439 /* JJRootTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJRootTableViewCell.m; sourceTree = "<group>"; };
+		A3C4FB581CFFE5D500C22439 /* JJRootTableViewHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJRootTableViewHeaderFooterView.h; sourceTree = "<group>"; };
+		A3C4FB591CFFE5D500C22439 /* JJRootTableViewHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJRootTableViewHeaderFooterView.m; sourceTree = "<group>"; };
+		A3C4FB5A1CFFE5D500C22439 /* JJTouchTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJTouchTableView.h; sourceTree = "<group>"; };
+		A3C4FB5B1CFFE5D500C22439 /* JJTouchTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJTouchTableView.m; sourceTree = "<group>"; };
+		A3C4FB5C1CFFE5D500C22439 /* UITableViewCell+JJCreate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+JJCreate.h"; sourceTree = "<group>"; };
+		A3C4FB5D1CFFE5D500C22439 /* UITableViewCell+JJCreate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+JJCreate.m"; sourceTree = "<group>"; };
+		A3C4FB5F1CFFE5D500C22439 /* JJRootTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJRootTextField.h; sourceTree = "<group>"; };
+		A3C4FB601CFFE5D500C22439 /* JJRootTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJRootTextField.m; sourceTree = "<group>"; };
+		A3C4FB621CFFE5D500C22439 /* JJRootTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJRootTextView.h; sourceTree = "<group>"; };
+		A3C4FB631CFFE5D500C22439 /* JJRootTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJRootTextView.m; sourceTree = "<group>"; };
+		A3C4FB651CFFE5D500C22439 /* JJRootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJRootView.h; sourceTree = "<group>"; };
+		A3C4FB661CFFE5D500C22439 /* JJRootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJRootView.m; sourceTree = "<group>"; };
+		A3C4FB701CFFE5FF00C22439 /* JJRootCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJRootCollectionView.h; sourceTree = "<group>"; };
+		A3C4FB711CFFE5FF00C22439 /* JJRootCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJRootCollectionView.m; sourceTree = "<group>"; };
+		A3C4FB731CFFE62E00C22439 /* JJRootCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJRootCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		A3C4FB741CFFE62E00C22439 /* JJRootCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJRootCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		A3C4FB761CFFE64900C22439 /* JJRootCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJRootCollectionViewCell.h; sourceTree = "<group>"; };
+		A3C4FB771CFFE64900C22439 /* JJRootCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJRootCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +175,7 @@
 		A31B20911CFBDE82009ED4A0 /* JJHelper */ = {
 			isa = PBXGroup;
 			children = (
+				A3C4FB2D1CFFDFD900C22439 /* JJRootUI */,
 				A31B20BE1CFBE2D0009ED4A0 /* JJHelper.h */,
 				A31B20E81CFC2E29009ED4A0 /* JJUtils */,
 				A31B20961CFBE172009ED4A0 /* JJDefine */,
@@ -238,10 +270,6 @@
 				A31B20D31CFC11A0009ED4A0 /* UINavigationController+JJHelper.m */,
 				A31B20CF1CFC105D009ED4A0 /* UIView+JJFrame.h */,
 				A31B20D01CFC105D009ED4A0 /* UIView+JJFrame.m */,
-				A31B20DF1CFC2A8D009ED4A0 /* UITableViewCell+JJCreate.h */,
-				A31B20E01CFC2A8D009ED4A0 /* UITableViewCell+JJCreate.m */,
-				A31B20E51CFC2C4B009ED4A0 /* JJTouchTableView.h */,
-				A31B20E61CFC2C4B009ED4A0 /* JJTouchTableView.m */,
 			);
 			path = JJHelper;
 			sourceTree = "<group>";
@@ -254,6 +282,86 @@
 				A31B20EA1CFC2EFA009ED4A0 /* JJAPPUtils.m */,
 			);
 			path = JJUtils;
+			sourceTree = "<group>";
+		};
+		A3C4FB2D1CFFDFD900C22439 /* JJRootUI */ = {
+			isa = PBXGroup;
+			children = (
+				A3C4FB341CFFE01100C22439 /* JJRootUI.h */,
+				A3C4FB4F1CFFE5D500C22439 /* JJCollectionVIew */,
+				A3C4FB501CFFE5D500C22439 /* JJScrollView */,
+				A3C4FB531CFFE5D500C22439 /* JJTableView */,
+				A3C4FB5E1CFFE5D500C22439 /* JJTextField */,
+				A3C4FB611CFFE5D500C22439 /* JJTextView */,
+				A3C4FB641CFFE5D500C22439 /* JJView */,
+			);
+			path = JJRootUI;
+			sourceTree = "<group>";
+		};
+		A3C4FB4F1CFFE5D500C22439 /* JJCollectionVIew */ = {
+			isa = PBXGroup;
+			children = (
+				A3C4FB701CFFE5FF00C22439 /* JJRootCollectionView.h */,
+				A3C4FB711CFFE5FF00C22439 /* JJRootCollectionView.m */,
+				A3C4FB761CFFE64900C22439 /* JJRootCollectionViewCell.h */,
+				A3C4FB771CFFE64900C22439 /* JJRootCollectionViewCell.m */,
+				A3C4FB731CFFE62E00C22439 /* JJRootCollectionViewFlowLayout.h */,
+				A3C4FB741CFFE62E00C22439 /* JJRootCollectionViewFlowLayout.m */,
+			);
+			path = JJCollectionVIew;
+			sourceTree = "<group>";
+		};
+		A3C4FB501CFFE5D500C22439 /* JJScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				A3C4FB511CFFE5D500C22439 /* JJRootScrollView.h */,
+				A3C4FB521CFFE5D500C22439 /* JJRootScrollView.m */,
+			);
+			path = JJScrollView;
+			sourceTree = "<group>";
+		};
+		A3C4FB531CFFE5D500C22439 /* JJTableView */ = {
+			isa = PBXGroup;
+			children = (
+				A3C4FB541CFFE5D500C22439 /* JJRootTableView.h */,
+				A3C4FB551CFFE5D500C22439 /* JJRootTableView.m */,
+				A3C4FB561CFFE5D500C22439 /* JJRootTableViewCell.h */,
+				A3C4FB571CFFE5D500C22439 /* JJRootTableViewCell.m */,
+				A3C4FB581CFFE5D500C22439 /* JJRootTableViewHeaderFooterView.h */,
+				A3C4FB591CFFE5D500C22439 /* JJRootTableViewHeaderFooterView.m */,
+				A3C4FB5A1CFFE5D500C22439 /* JJTouchTableView.h */,
+				A3C4FB5B1CFFE5D500C22439 /* JJTouchTableView.m */,
+				A3C4FB5C1CFFE5D500C22439 /* UITableViewCell+JJCreate.h */,
+				A3C4FB5D1CFFE5D500C22439 /* UITableViewCell+JJCreate.m */,
+			);
+			path = JJTableView;
+			sourceTree = "<group>";
+		};
+		A3C4FB5E1CFFE5D500C22439 /* JJTextField */ = {
+			isa = PBXGroup;
+			children = (
+				A3C4FB5F1CFFE5D500C22439 /* JJRootTextField.h */,
+				A3C4FB601CFFE5D500C22439 /* JJRootTextField.m */,
+			);
+			path = JJTextField;
+			sourceTree = "<group>";
+		};
+		A3C4FB611CFFE5D500C22439 /* JJTextView */ = {
+			isa = PBXGroup;
+			children = (
+				A3C4FB621CFFE5D500C22439 /* JJRootTextView.h */,
+				A3C4FB631CFFE5D500C22439 /* JJRootTextView.m */,
+			);
+			path = JJTextView;
+			sourceTree = "<group>";
+		};
+		A3C4FB641CFFE5D500C22439 /* JJView */ = {
+			isa = PBXGroup;
+			children = (
+				A3C4FB651CFFE5D500C22439 /* JJRootView.h */,
+				A3C4FB661CFFE5D500C22439 /* JJRootView.m */,
+			);
+			path = JJView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,22 +434,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3C4FB6C1CFFE5D500C22439 /* UITableViewCell+JJCreate.m in Sources */,
 				A31B20821CFBDE53009ED4A0 /* ViewController.m in Sources */,
+				A3C4FB6F1CFFE5D500C22439 /* JJRootView.m in Sources */,
 				A31B20D41CFC11A0009ED4A0 /* UINavigationController+JJHelper.m in Sources */,
+				A3C4FB751CFFE62E00C22439 /* JJRootCollectionViewFlowLayout.m in Sources */,
 				A31B20951CFBDF76009ED4A0 /* JJSandBox.m in Sources */,
+				A3C4FB671CFFE5D500C22439 /* JJRootScrollView.m in Sources */,
 				A31B20CE1CFBF550009ED4A0 /* UIButton+JJHelper.m in Sources */,
+				A3C4FB6E1CFFE5D500C22439 /* JJRootTextView.m in Sources */,
 				A31B20D71CFC1342009ED4A0 /* NSString+JJEncryption.m in Sources */,
 				A31B20C31CFBE5D8009ED4A0 /* NSString+JJSize.m in Sources */,
+				A3C4FB6B1CFFE5D500C22439 /* JJTouchTableView.m in Sources */,
 				A31B20DA1CFC152D009ED4A0 /* NSString+JJHelper.m in Sources */,
+				A3C4FB721CFFE5FF00C22439 /* JJRootCollectionView.m in Sources */,
 				A31B20BD1CFBE23F009ED4A0 /* NSString+JJSafe.m in Sources */,
+				A3C4FB691CFFE5D500C22439 /* JJRootTableViewCell.m in Sources */,
 				A31B20EB1CFC2EFA009ED4A0 /* JJAPPUtils.m in Sources */,
 				A31B207F1CFBDE53009ED4A0 /* AppDelegate.m in Sources */,
 				A31B20CA1CFBED0E009ED4A0 /* UIImage+JJHelper.m in Sources */,
 				A31B20DD1CFC15FA009ED4A0 /* NSDate+JJHelper.m in Sources */,
-				A31B20E71CFC2C4B009ED4A0 /* JJTouchTableView.m in Sources */,
 				A31B20B91CFBE23F009ED4A0 /* NSArray+JJSafe.m in Sources */,
+				A3C4FB6D1CFFE5D500C22439 /* JJRootTextField.m in Sources */,
+				A3C4FB6A1CFFE5D500C22439 /* JJRootTableViewHeaderFooterView.m in Sources */,
+				A3C4FB781CFFE64900C22439 /* JJRootCollectionViewCell.m in Sources */,
+				A3C4FB681CFFE5D500C22439 /* JJRootTableView.m in Sources */,
 				A31B20BB1CFBE23F009ED4A0 /* NSDictionary+JJSafe.m in Sources */,
-				A31B20E11CFC2A8D009ED4A0 /* UITableViewCell+JJCreate.m in Sources */,
 				A31B20BA1CFBE23F009ED4A0 /* NSMutableArray+JJSafe.m in Sources */,
 				A31B20D11CFC105D009ED4A0 /* UIView+JJFrame.m in Sources */,
 				A31B20C71CFBEA58009ED4A0 /* UIImage+JJCompress.m in Sources */,
@@ -495,6 +613,7 @@
 				A31B20901CFBDE53009ED4A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

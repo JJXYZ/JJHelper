@@ -32,5 +32,11 @@
     }
 }
 
+- (void)safeAddEntriesFromDictionary:(NSDictionary *)otherDictionary {
+    if ([self isKindOfClass:[NSMutableDictionary class]] &&
+        [otherDictionary isKindOfClass:[NSDictionary class]]) {
+        [self addEntriesFromDictionary:otherDictionary];
+    }
+}
 
 @end

@@ -10,6 +10,7 @@
 
 @implementation JJTouchTableView
 
+#pragma mark - Lifecycle
 
 - (id)initWithFrame:(CGRect)frame
 {
