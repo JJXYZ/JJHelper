@@ -15,7 +15,7 @@
         return [self dictionaryWithDictionary:dic];
     }
     else {
-        return nil;
+        return [NSMutableDictionary dictionary];
     }
 }
 
