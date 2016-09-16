@@ -31,4 +31,8 @@
 /** 设置状态栏颜色:Dark */
 + (void)setStatusBarDark;
 
++ (void)setNavigationBarTransparentBackground;
+
++ (void)setNavigationBarOpaqueBackground;
+
 @end

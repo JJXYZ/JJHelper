@@ -60,5 +60,15 @@
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
 }
 
++ (void)setNavigationBarTransparentBackground {
+    [[UINavigationBar appearance] setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setShadowImage:[UIImage new]];//去掉底部系统的黑线
+}
+
++ (void)setNavigationBarOpaqueBackground {
+    [[UINavigationBar appearance] setBackgroundImage:nil forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setShadowImage:nil];
+}
+
 
 @end
