@@ -13,6 +13,13 @@
  iphone6  {{0, 0}, {375, 667}}     1334*750    326ppi
  iphone6Plus {{0, 0}, {414, 736}}  1920*1080   401ppi
  Apple Watch 1.65英寸 320*640
+ 
+ 这个是设备对应的architecture：
+ armv6：iPhone 2G/3G，iPod 1G/2G
+ armv7：iPhone 3GS/4/4s，iPod 3G/4G，iPad 1G/2G/3G
+ armv7s：iPhone5, iPod5
+ arm64：iPhone5s
+
  */
 
 
