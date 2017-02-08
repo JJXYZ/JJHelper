@@ -24,7 +24,7 @@
 
 + (NSString *)getTimeWithDate:(NSDate *)date {
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
-    [formatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
+    [formatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];//.SSS
     NSString *datestr = [formatter stringFromDate:date];
     return datestr;
 }
