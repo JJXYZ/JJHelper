@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		693B46AF2133D82E008FD2FE /* JJAppAutoSizeScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 693B46AE2133D82E008FD2FE /* JJAppAutoSizeScale.m */; };
 		A31B207C1CFBDE53009ED4A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A31B207B1CFBDE53009ED4A0 /* main.m */; };
 		A31B207F1CFBDE53009ED4A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A31B207E1CFBDE53009ED4A0 /* AppDelegate.m */; };
 		A31B20821CFBDE53009ED4A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A31B20811CFBDE53009ED4A0 /* ViewController.m */; };
@@ -44,6 +45,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		693B46AD2133D82E008FD2FE /* JJAppAutoSizeScale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJAppAutoSizeScale.h; sourceTree = "<group>"; };
+		693B46AE2133D82E008FD2FE /* JJAppAutoSizeScale.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJAppAutoSizeScale.m; sourceTree = "<group>"; };
 		A31B20771CFBDE53009ED4A0 /* JJHelperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJHelperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A31B207B1CFBDE53009ED4A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A31B207D1CFBDE53009ED4A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -131,6 +134,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		693B46A92133D7F5008FD2FE /* AppAutoSizeScale */ = {
+			isa = PBXGroup;
+			children = (
+				693B46AD2133D82E008FD2FE /* JJAppAutoSizeScale.h */,
+				693B46AE2133D82E008FD2FE /* JJAppAutoSizeScale.m */,
+			);
+			path = AppAutoSizeScale;
+			sourceTree = "<group>";
+		};
 		A31B206E1CFBDE53009ED4A0 = {
 			isa = PBXGroup;
 			children = (
@@ -199,6 +211,7 @@
 		A31B20961CFBE172009ED4A0 /* JJDefine */ = {
 			isa = PBXGroup;
 			children = (
+				693B46A92133D7F5008FD2FE /* AppAutoSizeScale */,
 				A31B20971CFBE172009ED4A0 /* JJDefine.h */,
 				A31B20981CFBE172009ED4A0 /* JJDefine_Device.h */,
 				A31B20991CFBE172009ED4A0 /* JJDefine_UI.h */,
@@ -441,6 +454,7 @@
 				A3C4FB751CFFE62E00C22439 /* JJRootCollectionViewFlowLayout.m in Sources */,
 				A31B20951CFBDF76009ED4A0 /* JJSandBox.m in Sources */,
 				A3C4FB671CFFE5D500C22439 /* JJRootScrollView.m in Sources */,
+				693B46AF2133D82E008FD2FE /* JJAppAutoSizeScale.m in Sources */,
 				A31B20CE1CFBF550009ED4A0 /* UIButton+JJHelper.m in Sources */,
 				A3C4FB6E1CFFE5D500C22439 /* JJRootTextView.m in Sources */,
 				A31B20D71CFC1342009ED4A0 /* NSString+JJEncryption.m in Sources */,

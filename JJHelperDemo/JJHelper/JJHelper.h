@@ -15,5 +15,6 @@
 #import "JJHelperDefine.h"
 #import "JJUtils.h"
 #import "JJRootUI.h"
+#import "JJAppAutoSizeScale.h"
 
 #endif /* JJHelper_h */
